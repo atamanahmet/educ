@@ -8,5 +8,5 @@
 document.getElementById("btn").onclick = function(){
     let dogAge = document.getElementById("dogAge").value
     let result = (dogAge-2)*4 +21;
-    document.getElementById("title").textContent = "Your Dogs Human Age is " + result;
+    document.getElementById("title").textContent = "Your Dog's Human Age is " + result;
 }
